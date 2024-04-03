@@ -1,0 +1,119 @@
+.Home{
+    display: flex;
+    width: calc(70vw - 50px);
+    position: relative;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+
+}
+
+.home-l{
+    /* border: 2px dotted teal; */
+    padding: 2rem 7rem;
+    width: 65%;
+    background-color: #fff6f7;
+    text-align: left;
+}
+
+.icon {
+    display: flex;
+    /* border: 1px dotted; */
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.heading>div{
+    color: #2a2424;
+    font-size: 2.5rem;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.heading>div:first-child{
+    color: #b59293;
+    font-weight: normal;
+}
+
+.heading>div:last-of-type{
+    margin-bottom: 1rem;
+}
+
+.heading>p{
+    color: #9a8283;
+    font-size: 0.8rem;
+    word-spacing: 1px;
+}
+
+.email{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    /* border: 1px dotted teal; */
+    height: 2.7rem;
+    margin-bottom: 3rem;
+}
+
+.email>input{
+    width: 85%;
+    outline: none;
+    padding-left: 1rem;
+    border-radius: 50px 0 0 50px;
+    border: 1px solid #ece4e5;
+}
+
+.email>button{
+    position: absolute;
+    right: 0;
+    width: 25%;
+    background: #e9958e;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    height: 2.7rem;
+    border-radius: 50px ;
+    border: none;
+}
+
+.email>button:hover{
+    background: #ed8980;
+
+}
+
+.home-r{
+    width: 45%;
+    position: absolute; 
+    height: inherit;
+    /* border: 2px dotted red;  */
+    overflow: hidden;
+    position: relative;
+}
+
+.home-r>img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    /* object-fit: cover; */
+}
+
+/* .home-r{
+    background-image: url('src/assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
